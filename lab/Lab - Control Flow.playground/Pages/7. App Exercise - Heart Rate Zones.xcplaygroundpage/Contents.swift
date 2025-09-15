@@ -15,6 +15,22 @@
  
 */
 let currentAverage = 88
-
+switch(currentAverage){
+case 90...100:
+    print("A!!!")
+    break
+case 80...89:
+    print("B")
+    break
+case 70...79:
+    print("C")
+    break
+case 60...69:
+    print("D")
+    break
+default:
+    print("F for Failure")
+    break;
+}
 
 //: [Previous](@previous)  |  page 7 of 9  |  [Next](@next)
